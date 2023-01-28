@@ -11,6 +11,7 @@
     "yarn": "*"
   },
   "scripts": {
+    "build": "yarn",
     "start": "cross-env NODE_ENV=production pm2 start ./src/index.js",
     "dev": "nodemon ./src/index.js",
     "lint": "eslint ./src/ --ignore-path .gitignore --ignore-pattern internals/scripts",
